@@ -1,11 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Update the facility address to the real location (Thuckalay, Kanyakumari District) across the Location section and Footer.
+**Goal:** Apply a frosted-glass, translucent styling to the "Contact Us" and "Our Services" buttons in the Hero section.
 
 **Planned changes:**
-- Replace the existing address text in the Location section (`Location.tsx`) with: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India
-- Update the interactive map marker popup label to reflect the correct address/facility name
-- Update the Footer component's address display to match the new address
+- Update the "Contact Us" button in `Hero.tsx` with a semi-transparent background, backdrop-blur effect, and a light border.
+- Update the "Our Services" button in `Hero.tsx` with the same frosted-glass styling.
+- Ensure both buttons retain legible text, visible hover/focus states, and remain responsive on mobile and desktop.
 
-**User-visible outcome:** The Location section and Footer now show the real facility address (Thuckalay, Kanyakumari District, Tamil Nadu – 629175, India) with no placeholder text remaining.
+**User-visible outcome:** The two Hero CTA buttons display a frosted, semi-transparent appearance that blends elegantly with the maritime navy/seafoam background.

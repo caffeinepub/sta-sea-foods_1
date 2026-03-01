@@ -71,15 +71,14 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 items-center mb-16">
           <Button
             onClick={() => scrollToSection('#contact')}
-            className="bg-seafoam-400 hover:bg-seafoam-300 text-navy-800 font-semibold text-base px-8 py-6 rounded-full shadow-seafoam hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+            className="bg-seafoam-400/25 hover:bg-seafoam-400/40 text-white font-semibold text-base px-8 py-6 rounded-full border border-seafoam-400/50 hover:border-seafoam-400/70 backdrop-blur-md shadow-seafoam/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
             size="lg"
           >
             Contact Us Today
           </Button>
           <Button
             onClick={() => scrollToSection('#services')}
-            variant="outline"
-            className="border-white/30 text-white hover:bg-white/10 hover:border-white/50 font-medium text-base px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300"
+            className="bg-white/10 hover:bg-white/20 text-white font-medium text-base px-8 py-6 rounded-full border border-white/25 hover:border-white/45 backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5"
             size="lg"
           >
             Our Services

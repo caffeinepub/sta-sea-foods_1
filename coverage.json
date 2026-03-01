@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-03-01T12:57:42.178Z",
+  "generatedAt": "2026-03-01T13:04:04.731Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -11,16 +11,14 @@
     "implemented": 1,
     "items": [
       {
-        "id": "REQ-11",
-        "summary": "Update the address displayed in the Location section (frontend/src/components/Location.tsx) to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India. Replace any existing placeholder or previously shown address text with this real address across all address display elements, info cards, and any embedded map popup labels within the Location section.",
+        "id": "REQ-12",
+        "summary": "In the Hero section (frontend/src/components/Hero.tsx), update the 'Contact Us' and 'Our Services' CTA buttons to have a translucent/frosted semi-transparent appearance. Apply a semi-transparent background (e.g., white or navy with low opacity), a subtle backdrop-blur effect, and a light border to achieve a frosted-glass look that complements the existing maritime navy/seafoam theme. Ensure text remains legible and hover states are preserved.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/Location.tsx",
-          "frontend/src/components/Footer.tsx"
+          "frontend/src/components/Hero.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/Location.tsx",
-          "frontend/src/components/Footer.tsx"
+          "frontend/src/components/Hero.tsx"
         ]
       }
     ]
@@ -30,8 +28,7 @@
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/src/components/Footer.tsx",
-    "frontend/src/components/Location.tsx",
+    "frontend/src/components/Hero.tsx",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

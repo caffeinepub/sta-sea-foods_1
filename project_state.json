@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 9,
+  "projectStateVersion": 11,
   "summary": "Website for STA Sea Foods, a fresh fish storage facility. The site will showcase the business with sections for location, contact information, and services.",
   "architectural_notes": [],
   "known_issues": [],
@@ -93,6 +93,14 @@
         "REQ-11"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-in-the-hero-section-frontend-src-components-hero-tsx-update-the-contact-us-and-our-services-cta-buttons-to-have-a-translucent-frosted-semi-transparent-appearance-apply-a-semi-transparent-background-e-g-white-or-navy-with-low-opacity-a-subtle-backdrop-blur-effect-and-a-light-border-to-achieve-a-frosted-glass-look-that-complements-the-existing-maritime-navy-seafoam-theme-ensure-text-remains-legible-and-hover-states-are-preserved",
+      "title": "In the Hero section (frontend/src/components/Hero.tsx), update the 'Contact Us' and 'Our Services' CTA buttons to have a translucent/frosted semi-transparent appearance. Apply a semi-transparent background (e.g., white or navy with low opacity), a subtle backdrop-blur effect, and a light border to achieve a frosted-glass look that complements the existing maritime navy/seafoam theme. Ensure text remains legible and hover states are preserved.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -117,6 +125,12 @@
     {
       "id": "AR-5",
       "summary": "Update location address to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Make the Contact Us and Our Services buttons translucent/frosted semi-transparent styling",
       "reqIds": [],
       "status": "pending"
     }

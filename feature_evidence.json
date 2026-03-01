@@ -2,11 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-the-address-displayed-in-the-location-section-frontend-src-components-location-tsx-to-thuckalay-kalkulam-taluk-kanyakumari-district-tamil-nadu-629175-india-replace-any-existing-placeholder-or-previously-shown-address-text-with-this-real-address-across-all-address-display-elements-info-cards-and-any-embedded-map-popup-labels-within-the-location-section",
-      "featureTitle": "Update the address displayed in the Location section (frontend/src/components/Location.tsx) to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India. Replace any existing placeholder or previously shown address text with this real address across all address display elements, info cards, and any embedded map popup labels within the Location section.",
+      "featureId": "feature-in-the-hero-section-frontend-src-components-hero-tsx-update-the-contact-us-and-our-services-cta-buttons-to-have-a-translucent-frosted-semi-transparent-appearance-apply-a-semi-transparent-background-e-g-white-or-navy-with-low-opacity-a-subtle-backdrop-blur-effect-and-a-light-border-to-achieve-a-frosted-glass-look-that-complements-the-existing-maritime-navy-seafoam-theme-ensure-text-remains-legible-and-hover-states-are-preserved",
+      "featureTitle": "In the Hero section (frontend/src/components/Hero.tsx), update the 'Contact Us' and 'Our Services' CTA buttons to have a translucent/frosted semi-transparent appearance. Apply a semi-transparent background (e.g., white or navy with low opacity), a subtle backdrop-blur effect, and a light border to achieve a frosted-glass look that complements the existing maritime navy/seafoam theme. Ensure text remains legible and hover states are preserved.",
       "files": [
-        "frontend/src/components/Footer.tsx",
-        "frontend/src/components/Location.tsx"
+        "frontend/src/components/Hero.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -16,7 +15,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-11"
+        "REQ-12"
       ],
       "confidence": "high"
     }

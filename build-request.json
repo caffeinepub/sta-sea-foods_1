@@ -1,39 +1,41 @@
 {
   "kind": "build_request",
-  "title": "Update location address to Thuckalay, Kanyakumari District",
+  "title": "Make Contact Us and Our Services buttons translucent",
   "projectName": "STA Sea Foods",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-11",
-      "text": "Update the address displayed in the Location section (frontend/src/components/Location.tsx) to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India. Replace any existing placeholder or previously shown address text with this real address across all address display elements, info cards, and any embedded map popup labels within the Location section.",
+      "id": "REQ-12",
+      "text": "In the Hero section (frontend/src/components/Hero.tsx), update the 'Contact Us' and 'Our Services' CTA buttons to have a translucent/frosted semi-transparent appearance. Apply a semi-transparent background (e.g., white or navy with low opacity), a subtle backdrop-blur effect, and a light border to achieve a frosted-glass look that complements the existing maritime navy/seafoam theme. Ensure text remains legible and hover states are preserved.",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-1"
+          "msg-4",
+          "msg-5"
         ],
         "quotes": [
-          "Location is Thuckalay,\nKalkulam Taluk,\nKanyakumari District,\nTamil Nadu – 629175,\nIndia"
+          "Make the contact us and our service button translucent",
+          "Making the Contact Us and Our Services buttons translucent now — applying a frosted, semi-transparent styling that keeps them elegant within the maritime theme!"
         ]
       },
       "acceptanceCriteria": [
-        "The Location section displays 'Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India' as the facility address.",
-        "No placeholder address text remains in the Location section.",
-        "The interactive map marker popup label also reflects the updated address or facility name with the correct location.",
-        "The Footer component, if it displays an address, is also updated to reflect Thuckalay, Kanyakumari District, Tamil Nadu – 629175, India.",
-        "The existing interactive map coordinates (8.120236, 77.454371), maritime theme styling, and info cards are preserved unchanged."
+        "The 'Contact Us' button in the Hero section has a semi-transparent background with backdrop-blur styling.",
+        "The 'Our Services' button in the Hero section has a semi-transparent background with backdrop-blur styling.",
+        "Both buttons retain legible text with sufficient contrast against the hero background.",
+        "Both buttons have visible hover/focus states consistent with the maritime theme.",
+        "The frosted/translucent styling does not break the existing layout or responsiveness on mobile and desktop."
       ]
     }
   ],
   "constraints": [
-    "Do not change the interactive map coordinates (8.120236, 77.454371).",
-    "Do not alter the maritime navy/seafoam visual theme or layout of the Location section.",
-    "Do not modify any immutable frontend paths."
+    "Do not alter button functionality or scroll behavior.",
+    "Do not modify files listed in frontend.immutablePaths.",
+    "Preserve the existing maritime navy/seafoam color palette."
   ],
   "nonGoals": [
-    "Changing map provider or map implementation.",
-    "Adding new sections or features beyond address text update.",
-    "Modifying contact phone numbers or email address."
+    "Changing button labels or CTA text.",
+    "Modifying buttons in any section other than the Hero.",
+    "Altering the Navigation, Contact, or Services section styling."
   ],
   "imageRequirements": {
     "required": [],

@@ -1,15 +1,14 @@
 {
   "kind": "spec_vs_diff_report",
   "version": "1.0",
-  "generatedAt": "2026-03-01T12:57:42.175Z",
-  "summary": "REQ-11 requires updating the address in Location.tsx, ensuring no placeholder address remains, updating the map popup label, updating the Footer if it displays an address, and preserving map coordinates and maritime theme. The diff shows all these changes were implemented: Location.tsx displays the correct address, Footer.tsx is updated, coordinates are preserved, and the maritime theme is unchanged.",
+  "generatedAt": "2026-03-01T13:04:04.728Z",
+  "summary": "REQ-12 is fully implemented. The Hero.tsx file has been updated with translucent frosted-glass styling on both the 'Contact Us Today' and 'Our Services' buttons. The 'Contact Us' button uses seafoam tint (bg-seafoam-400/25, hover:bg-seafoam-400/40) with backdrop-blur-md and a seafoam border. The 'Our Services' button uses white tint (bg-white/10, hover:bg-white/20) with backdrop-blur-md and a white border. Both buttons have hover states (hover:-translate-y-0.5, hover:border changes), legible white text, and the maritime color palette is preserved. No hallucinated features were found.",
   "missing_requirements": [],
   "hallucinated_features": [],
-  "confidence": 0.95,
+  "confidence": 0.97,
   "changed_files": [
     "frontend-file-summaries.txt",
-    "frontend/src/components/Footer.tsx",
-    "frontend/src/components/Location.tsx",
+    "frontend/src/components/Hero.tsx",
     "project_state.json"
   ]
 }
