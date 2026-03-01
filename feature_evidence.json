@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-address-displayed-in-the-location-section-frontend-src-components-location-tsx-to-thuckalay-kalkulam-taluk-kanyakumari-district-tamil-nadu-629175-india-replace-any-existing-placeholder-or-previously-shown-address-text-with-this-real-address-across-all-address-display-elements-info-cards-and-any-embedded-map-popup-labels-within-the-location-section",
+      "featureTitle": "Update the address displayed in the Location section (frontend/src/components/Location.tsx) to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India. Replace any existing placeholder or previously shown address text with this real address across all address display elements, info cards, and any embedded map popup labels within the Location section.",
+      "files": [
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Location.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

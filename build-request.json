@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Update location address to Thuckalay, Kanyakumari District",
+  "projectName": "STA Sea Foods",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update the address displayed in the Location section (frontend/src/components/Location.tsx) to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India. Replace any existing placeholder or previously shown address text with this real address across all address display elements, info cards, and any embedded map popup labels within the Location section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Location is Thuckalay,\nKalkulam Taluk,\nKanyakumari District,\nTamil Nadu – 629175,\nIndia"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Location section displays 'Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India' as the facility address.",
+        "No placeholder address text remains in the Location section.",
+        "The interactive map marker popup label also reflects the updated address or facility name with the correct location.",
+        "The Footer component, if it displays an address, is also updated to reflect Thuckalay, Kanyakumari District, Tamil Nadu – 629175, India.",
+        "The existing interactive map coordinates (8.120236, 77.454371), maritime theme styling, and info cards are preserved unchanged."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change the interactive map coordinates (8.120236, 77.454371).",
+    "Do not alter the maritime navy/seafoam visual theme or layout of the Location section.",
+    "Do not modify any immutable frontend paths."
+  ],
+  "nonGoals": [
+    "Changing map provider or map implementation.",
+    "Adding new sections or features beyond address text update.",
+    "Modifying contact phone numbers or email address."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

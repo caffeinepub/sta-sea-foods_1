@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Website for STA Sea Foods, a fresh fish storage facility. The site will showcase the business with sections for location, contact information, and services.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-page-website-for-sta-sea-foods-with-a-hero-section-featuring-the-company-name-tagline-fresh-fish-storage-facility-and-a-prominent-call-to-action-button-to-contact-the-business",
+      "title": "Create a single-page website for 'STA Sea Foods' with a hero section featuring the company name, tagline (fresh fish storage facility), and a prominent call-to-action button to contact the business.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-our-services-section-that-describes-the-core-offerings-of-a-fresh-fish-storage-facility-including-cold-storage-fish-handling-preservation-and-distribution-support",
+      "title": "Add a 'Our Services' section that describes the core offerings of a fresh fish storage facility, including cold storage, fish handling, preservation, and distribution support.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-location-section-that-displays-the-company-s-location-with-a-placeholder-address-and-a-static-map-embed-or-visual-map-placeholder-card-indicating-the-facility-s-location",
+      "title": "Add a 'Location' section that displays the company's location with a placeholder address and a static map embed or visual map placeholder card indicating the facility's location.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-contact-us-section-that-displays-placeholder-contact-information-including-phone-number-email-address-and-business-hours-for-sta-sea-foods",
+      "title": "Add a 'Contact Us' section that displays placeholder contact information including phone number, email address, and business hours for STA Sea Foods.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-sticky-navigation-bar-with-links-to-all-page-sections-home-services-location-contact-and-the-sta-sea-foods-logo-name-include-a-mobile-responsive-hamburger-menu",
+      "title": "Add a sticky navigation bar with links to all page sections (Home, Services, Location, Contact) and the STA Sea Foods logo/name. Include a mobile-responsive hamburger menu.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-maritime-ocean-inspired-visual-theme-using-deep-navy-blue-seafoam-green-and-crisp-white-tones-with-clean-sans-serif-typography-wave-or-water-texture-accents-and-a-professional-layout-that-conveys-freshness-and-reliability-for-a-seafood-storage-business",
+      "title": "Apply a maritime, ocean-inspired visual theme using deep navy blue, seafoam green, and crisp white tones with clean sans-serif typography, wave or water texture accents, and a professional layout that conveys freshness and reliability for a seafood storage business.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-us-section-contact-tsx-to-display-the-real-email-address-fresh-sea-foods-sta-gmail-com-and-two-phone-numbers-9791259640-primary-and-9677871188-secondary-replacing-any-placeholder-contact-information",
+      "title": "Update the Contact Us section (Contact.tsx) to display the real email address 'fresh.sea.foods.sta@gmail.com' and two phone numbers: 9791259640 (primary) and 9677871188 (secondary), replacing any placeholder contact information.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-component-footer-tsx-to-also-reflect-the-real-contact-details-email-fresh-sea-foods-sta-gmail-com-and-phone-numbers-9791259640-and-9677871188-replacing-any-placeholder-values",
+      "title": "Update the Footer component (Footer.tsx) to also reflect the real contact details: email 'fresh.sea.foods.sta@gmail.com' and phone numbers 9791259640 and 9677871188, replacing any placeholder values.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-made-with-caffeine-branding-mark-from-all-pages-and-components-including-the-footer-and-any-other-location-where-it-appears",
+      "title": "Remove the 'Made with Caffeine' branding mark from all pages and components, including the Footer and any other location where it appears.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-existing-decorative-svg-map-placeholder-in-the-location-section-frontend-src-components-location-tsx-with-an-interactive-map-centered-at-coordinates-8-120236-77-454371-use-leaflet-js-react-leaflet-to-embed-the-map-the-map-must-display-a-marker-at-the-exact-coordinates-8-120236-77-454371-with-a-popup-label-identifying-the-sta-sea-foods-facility-the-map-must-be-fully-responsive-100-width-fixed-height-such-as-400px-on-desktop-250px-on-mobile-and-styled-to-complement-the-existing-maritime-theme-navy-seafoam-color-palette-retain-the-address-details-and-info-cards-already-present-in-the-section",
+      "title": "Replace the existing decorative SVG map placeholder in the Location section (frontend/src/components/Location.tsx) with an interactive map centered at coordinates 8.120236, 77.454371. Use Leaflet.js (react-leaflet) to embed the map. The map must display a marker at the exact coordinates (8.120236, 77.454371) with a popup label identifying the STA Sea Foods facility. The map must be fully responsive (100% width, fixed height such as 400px on desktop, 250px on mobile) and styled to complement the existing maritime theme (navy/seafoam color palette). Retain the address details and info cards already present in the section.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-address-displayed-in-the-location-section-frontend-src-components-location-tsx-to-thuckalay-kalkulam-taluk-kanyakumari-district-tamil-nadu-629175-india-replace-any-existing-placeholder-or-previously-shown-address-text-with-this-real-address-across-all-address-display-elements-info-cards-and-any-embedded-map-popup-labels-within-the-location-section",
+      "title": "Update the address displayed in the Location section (frontend/src/components/Location.tsx) to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India. Replace any existing placeholder or previously shown address text with this real address across all address display elements, info cards, and any embedded map popup labels within the Location section.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Display company location on the website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Showcase fresh fish storage facility services",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Integrate interactive map with coordinates 8.120236, 77.454371, responsive, themed, with marker",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Update location address to: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "STA Sea Foods",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update Location Address to Thuckalay, Kanyakumari District",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Update the Location section and Footer to display the correct facility address: Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India",
+      "acceptanceCriteria": [
+        "The Location section displays 'Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India' as the facility address.",
+        "No placeholder address text remains in the Location section.",
+        "The interactive map marker popup label also reflects the updated address or facility name with the correct location.",
+        "The Footer component, if it displays an address, is also updated to reflect Thuckalay, Kanyakumari District, Tamil Nadu – 629175, India.",
+        "The existing interactive map coordinates (8.120236, 77.454371), maritime theme styling, and info cards are preserved unchanged."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Location.tsx",
+          "operation": "modify",
+          "description": "Replace any existing placeholder or previously shown address text with 'Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India' in all address display elements, info cards, and the OpenStreetMap iframe marker popup label. Preserve the existing map coordinates (8.120236, 77.454371), maritime navy/seafoam theme styling, hours info card, landmark info card, and overall layout structure."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the address displayed in the Footer brand column to 'Thuckalay, Kalkulam Taluk, Kanyakumari District, Tamil Nadu – 629175, India'. Preserve all existing contact details (phone numbers and email), quick links, services list, and copyright notice."
+        }
+      ]
+    }
+  ]
+}
